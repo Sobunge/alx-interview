@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""canUnlockAll.
+A function to unlock all boxes.
+"""
+
+
 def canUnlockAll(boxes):
     """
     Determines if all boxes can be opened.
@@ -27,6 +32,7 @@ def canUnlockAll(boxes):
 
 # Example usage
 if __name__ == "__main__":
+    """ Main function """
     boxes = [[1], [2], [3], [4], []]
     print(canUnlockAll(boxes))  # True
 
